@@ -8,6 +8,10 @@ public class CalculatorApplication {
 
     public static void main(String[] args) {
         SpringApplication.run(CalculatorApplication.class, args);
-    }
 
+
+        Calculator count = new Calculator(5, 6);
+        count.Adding();
+
+    }
 }
