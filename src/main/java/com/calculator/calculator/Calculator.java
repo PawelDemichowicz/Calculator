@@ -18,6 +18,6 @@ public class Calculator {
 
     public void Substracting()
     {
-        System.out.println("Difference = " + (difference = firstValue + secondValue));
+        System.out.println("Difference = " + (difference = firstValue - secondValue));
     }
 }
