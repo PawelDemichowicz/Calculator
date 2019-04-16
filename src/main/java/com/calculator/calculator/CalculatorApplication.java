@@ -13,6 +13,7 @@ public class CalculatorApplication {
         Calculator count = new Calculator(5, 6);
         count.Adding();
         count.Substracting();
+        count.Adding();
 
     }
 }
